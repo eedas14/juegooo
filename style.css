@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: above;
+    align-items: center;
+    background-color: rgb(12, 43, 12);
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid lightblue;
+    padding: 20px;
+    background-color: rgb(240, 204, 204);
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.carta {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.jugador {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.modal-content {
+    color: black;
+}
+
+.modal-title {
+    color: gold;
+}
+
+#resultadoContenido {
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px;
+}
